@@ -1,0 +1,4 @@
+Source: ros-dashing-rosbag2
+Version: 0.1.3
+Description: ROSBag2 client library
+Build-Depends:
