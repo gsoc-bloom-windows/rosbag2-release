@@ -1,4 +1,0 @@
-Source: ros-dashing-rosbag2-storage-default-plugins
-Version: 0.1.3
-Description: ROSBag2 SQLite3 storage plugin
-Build-Depends:
