@@ -1,4 +1,0 @@
-Source: ros-dashing-rosbag2-converter-default-plugins
-Version: 0.1.3
-Description: Package containing default plugins for format converters
-Build-Depends:
