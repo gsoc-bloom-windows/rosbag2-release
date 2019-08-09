@@ -1,20 +1,15 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>ros-dashing-rosbag2-transport</id>
-    <version>0.1.3</version>
-    <title>ros-dashing-rosbag2-transport</title>
-    <authors></authors>
+    <id>@(Package)</id>
+    <version>@(Version)</version>
+    <title>@(Package)</title>
+    <authors>@(Authors)</authors>
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Layer encapsulating ROS middleware to allow rosbag2 to be used with or without middleware</description>
+    <description>@(Description)</description>
     <dependencies>
-			<dependency id="ros-dashing-rclcpp"/>
-			<dependency id="ros-dashing-rmw"/>
-			<dependency id="ros-dashing-rosbag2"/>
-			<dependency id="ros-dashing-shared-queues-vendor"/>
-			<dependency id="ros-dashing-ros-workspace"/>
-
+@[for d in Depends]@(d)@[end for]
     </dependencies>
   </metadata>
   <files>
